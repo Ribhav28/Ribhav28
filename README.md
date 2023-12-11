@@ -1,4 +1,4 @@
-# 🌐 Peer-to-Peer Networking Made Easy Using Hyperswarm
+# 🌐 Exposing local server using Hyperswarm
 
 ## Table of Contents 📚
 
