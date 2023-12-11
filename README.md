@@ -2,13 +2,13 @@
 
 ## Table of Contents 📚
 
-- [Introduction](#introduction)
-- [About Hyperswarm](#about-hyperswarm)
-- [Requirements](#requirements)
-- [Integrate Dependencies](#integrate-dependencies)
-- [Development](#development)
-- [Result](#result)
-- [Reference](#reference)
+- [Introduction](#introduction-)
+- [About Hyperswarm](#about-hyperswarm-)
+- [Requirements](#requirements-)
+- [Integrate Dependencies](#integrate-dependencies-)
+- [Development](#development-)
+- [Result](#result-)
+- [Reference](#reference-)
 
 ### Introduction 🚀
 
@@ -16,7 +16,7 @@ This document provides an in-depth overview of developing a **[peer-to-peer netw
 
 ### About Hyperswarm 👊
 
-<span style="color:blue">[Hyperswarm](https://docs.holepunch.to/building-blocks/hyperswarm)</span> simplifies peer discovery and connection for shared interests over a distributed network, often using Hypercore's **discovery key as the topic**. It is a networking tool that excels in establishing secure, direct connections between peers, bypassing NAT traversal complexities.
+[Hyperswarm](https://docs.holepunch.to/building-blocks/hyperswarm) simplifies peer discovery and connection for shared interests over a distributed network, often using Hypercore's **discovery key as the topic**. It is a networking tool that excels in establishing secure, direct connections between peers, bypassing NAT traversal complexities.
 
 ### Requirements 📋
 
@@ -98,13 +98,9 @@ This document provides an in-depth overview of developing a **[peer-to-peer netw
     swarm.on('connection', (socket) => { /* Connection handling code */ });
     ```
 
-
 ### Result 🎉
 
 Overview of successful implementation: The server correctly announces its presence on the Hyperswarm network, and the client connects and exchanges data, demonstrating a functional peer-to-peer network.
-
-
-
 
 ### Reference 🔗
 
