@@ -20,10 +20,8 @@ This document provides an in-depth overview of developing a **[peer-to-peer netw
 
 ### Requirements 📋
 
-1. Any operating system (MacOS, Linux, and Windows).
-2. A laptop or desktop with [Node.js installed](https://nodejs.org/en) (LTS Version preferred - Node v16 or greater).
-3. [VS Code](https://code.visualstudio.com/download) or any other [open source code editor](https://www.hostinger.in/tutorials/best-code-editors).
-4. Stable internet connection.
+> 1. A laptop or desktop with [Node.js installed](https://nodejs.org/en) (LTS Version preferred - Node v16 or greater).
+> 2. [VS Code](https://code.visualstudio.com/download) or any other [open source code editor](https://www.hostinger.in/tutorials/best-code-editors).
 
 ### Integrate Dependencies 🔗
 
@@ -107,3 +105,4 @@ Overview of successful implementation: The server correctly announces its presen
 - [Holepunch Documentation](https://docs.holepunch.to/)
 - [Hyperswarm Documentation](https://github.com/hyperswarm/hyperswarm)
 - [Express.js Documentation](https://expressjs.com/)
+
