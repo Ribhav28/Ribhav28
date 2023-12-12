@@ -80,11 +80,12 @@ This document provides an in-depth overview of developing a **[peer-to-peer netw
 
 #### Step 2: Generate seed for Hypertele Server:
     ```javascript
-    // Your chosen seed phrase
+    Your chosen seed phrase
     const seedPhrase = 'Namaste'; // Use your phrase
     const seed = crypto.createHash('sha256').update(seedPhrase).digest('hex');
     console.log(seed);
     ```
+    
 6. Use these commands to print key using generated seed value & further use the printed key to help client get remote access:
     ```shell
     hypertele-server --seed <Generated_Seed> -l <Local Port> // Server
