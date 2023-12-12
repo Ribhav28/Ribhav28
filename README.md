@@ -57,13 +57,13 @@ This document provides an in-depth overview of developing a **[peer-to-peer netw
     ```
 
 
-#### Step 2: Generate seed for Hypertele Server:
+#### Step 2: Generate seed for Hypertele Server (`GenerateSeed.js`):
     
-    const crypto = require('crypto');
+    ```const crypto = require('crypto');
     // Your chosen seed phrase
     const seedPhrase = 'Namaste'; // Use your phrase
     const seed = crypto.createHash('sha256').update(seedPhrase).digest('hex');
-    console.log(seed);
+    console.log(seed);```
     
   
     
