@@ -80,6 +80,5 @@ Voilà! The client can access the Express server remotely. 🍐
 ### Reference
 
 - [Holepunch Documentation](https://docs.holepunch.to/)
-- [Hyperswarm Documentation](https://github.com/hyperswarm/hyperswarm)
 - [Express.js Documentation](https://expressjs.com/)
 - [Hypertele Documentation](https://docs.holepunch.to/tools/hypertele)
