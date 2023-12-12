@@ -67,7 +67,7 @@ This document provides an in-depth overview of developing a **[peer-to-peer netw
     
   
     
-4. Use these commands to print key using generated seed value & further use the printed key to help client get remote access:
+1. Use these commands to print key using generated seed value & further use the printed key to help client get remote access:
     ```shell
     hypertele-server --seed <Generated_Seed> -l <Local Port> // Server
     hypertele -s <Printed_Key> -p <Local Port> // Client
