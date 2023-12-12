@@ -15,7 +15,7 @@
 
 ### Introduction
 
-This document provides an in-depth overview of developing a **[peer-to-peer networking](https://www.geeksforgeeks.org/what-is-p2p-peer-to-peer-process/)** tool, leveraging **[Hypertele](https://docs.holepunch.to/tools/hypertele)**, specifically focusing on integrating it with an Express.js server. The main purpose is for the client to listen on a local port on one laptop through which it can access the server running on another laptop, which is an express server. It should also proxy the traffic to the webserver.
+This document provides an overview of implementing **[peer-to-peer networking](https://www.geeksforgeeks.org/what-is-p2p-peer-to-peer-process/)**, leveraging **[Hypertele](https://docs.holepunch.to/tools/hypertele)**, specifically focusing on integrating it with an Express.js server. The main purpose is for the client to listen on a local port on one laptop through which it can access the server running on another laptop, which is an express server. It should also proxy the traffic to the webserver.
 
 ### Integrate Dependencies
 
